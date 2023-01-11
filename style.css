@@ -1,0 +1,22 @@
+.ligne1{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    border : 2px;
+    margin :5px;
+    display : flex;
+    justify-content :center;
+    align-items : center;
+    cursor : move;
+}
+
+
+.ligne1:hover {
+    border: 3px dotted #666;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
